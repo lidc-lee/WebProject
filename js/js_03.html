@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function myFunction(){
+            document.getElementById("myPar").innerHTML="你好大东！";
+            document.getElementById("myDiv").innerHTML="你最近怎么样?";
+        }
+    </script>
+</head>
+<body>
+<!--JavaScript 使用关键字 var 来定义变量， 使用等号来为变量赋值：-->
+    <p id="demo"></p>
+    <p id="myPar">我是大东</p>
+    <p id="myDiv">我是大东</p>
+    <p><button type="button" onclick="myFunction()">点击这里</button></p>
+    <script>
+        var val = 10
+        document.getElementById("demo").innerHTML = (5 + 6) * val;
+    </script>
+    <a href="javascript:void(0)">单此处什么也不会发生</a>
+</body>
+</html>
